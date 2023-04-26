@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Aceitar tudo - VIKI Add-on",
+  "description": "Extensão Aceitar tudo - VIKI",
+  "author": "Carlos Eduardo Martins",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Aceitar tudo - VIKI",
+    "default_popup": "index.html",
+    "default_icon": "icone.png"
+  }
+}

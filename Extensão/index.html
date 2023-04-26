@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<style>
+    body {
+        text-align: center;
+        width: 300px;
+        height: 100px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+    .button {
+        box-shadow: 0px 10px 14px -7px #3dc21b;
+        background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+        background-color:#44c767;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+    }
+    .button:hover {
+        background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+        background-color:#5cbf2a;
+    }
+    .button:active {
+        position:relative;
+        top:1px;
+    }
+</style>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aceitar tudo - VIKI</title>
+</head>
+<body>
+    <p class="titulo">Clique no botão para aceitar todos os itens que estão na tela do viki.</p>
+    <button class="button" id="botao">Aceitar Tudo</button>
+    <script src="content.js"></script>
+</body>
+</html>
